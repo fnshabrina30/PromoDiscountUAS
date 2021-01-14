@@ -15,9 +15,13 @@ namespace PromoDiscount
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class PromoM : Window
     {
-        public Window1()
+        PromoController controller;
+        OnPromoChangedListener listener;
+        private object listPromo;
+
+        public PromoM()
         {
             InitializeComponent();
 
@@ -26,6 +30,11 @@ namespace PromoDiscount
 
             generateContentPromo();
 
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
 
         public void SetOnItemSelectedListener(OnPromoChangedListener listener)
@@ -52,13 +61,13 @@ namespace PromoDiscount
             ListBox listbox = sender as ListBox;
             Promo promo = listbox.SelectedItem as Promo;
 
-            this.listener.onPromoSelected(promo);
+            this.listener.OnPromoSelected(promo);
         }
     }
 
     public interface OnPromoChangedListener
     {
-        void onPromoSelected(Promo promo);
+        void OnPromoSelected(Promo promo);
     }
 }
 

@@ -18,20 +18,21 @@
         <Button x:Name="button" Content="Ganti Alamat" HorizontalAlignment="Left" Height="19" Margin="57,204,0,0" VerticalAlignment="Top" Width="106"/>
         <Rectangle HorizontalAlignment="Left" Height="366" Margin="200,40,0,0" Stroke="Black" VerticalAlignment="Top" Width="266"/>
         <Label x:Name="label3" Content="Item Pemesanan" HorizontalAlignment="Left" Height="35" Margin="240,44,0,0" VerticalAlignment="Top" Width="186" FontFamily="Arial Black" FontSize="18"/>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="255" Margin="212,84,0,0" VerticalAlignment="Top" Width="242"/>
-        <Button x:Name="button1" Content="Tambah" HorizontalAlignment="Left" Height="25" Margin="396,344,0,0" VerticalAlignment="Top" Width="58"/>
-        <Label x:Name="label4" Content="Sub Total" HorizontalAlignment="Left" Height="28" Margin="212,356,0,0" VerticalAlignment="Top" Width="78"/>
+        <ListBox x:Name="listBoxPesanan" HorizontalAlignment="Left" Height="255" Margin="212,84,0,0" VerticalAlignment="Top" Width="242"/>
+        <Button x:Name="buttonAddItem" Content="Tambah" HorizontalAlignment="Left" Height="25" Margin="396,344,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="label4" Content="Sub Total" HorizontalAlignment="Left" Height="28" Margin="200,358,0,0" VerticalAlignment="Top" Width="63"/>
         <Rectangle HorizontalAlignment="Left" Height="277" Margin="483,92,0,0" Stroke="Black" VerticalAlignment="Top" Width="270"/>
-        <Label x:Name="label5" Content="Jenis Promo" HorizontalAlignment="Left" Height="26" Margin="546,101,0,0" VerticalAlignment="Top" Width="144" FontFamily="Arial Black" FontSize="18"/>
-        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="156" Margin="497,158,0,0" VerticalAlignment="Top" Width="241"/>
+        <Label x:Name="label5" Content="Jenis Promo" HorizontalAlignment="Left" Height="27" Margin="546,101,0,0" VerticalAlignment="Top" Width="144" FontFamily="Arial Black" FontSize="18"/>
+        <ListBox x:Name="listBoxPakaiPromo" HorizontalAlignment="Left" Height="156" Margin="497,158,0,0" VerticalAlignment="Top" Width="241"/>
         <Label x:Name="label6" Content="Pilih Promo" HorizontalAlignment="Left" Height="30" Margin="497,128,0,0" VerticalAlignment="Top" Width="86"/>
         <Button x:Name="button2" Content="Ganti" Grid.Column="1" HorizontalAlignment="Left" Height="42" Margin="124,101,0,0" VerticalAlignment="Top" Width="70"/>
-        <Button x:Name="button3" Content="Ganti" HorizontalAlignment="Left" Height="25" Margin="679,126,0,0" VerticalAlignment="Top" Width="59"/>
-        <Label x:Name="label7" Content="Diskon Promo" HorizontalAlignment="Left" Height="35" Margin="496,321,0,0" VerticalAlignment="Top" Width="87"/>
-        <Label x:Name="label8" Content="" HorizontalAlignment="Left" Height="35" Margin="633,321,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="buttonAddPromo" Content="Ganti" HorizontalAlignment="Left" Height="25" Margin="679,126,0,0" VerticalAlignment="Top" Width="59"/>
+        <Label x:Name="label7" Content="Promo" HorizontalAlignment="Left" Height="35" Margin="496,321,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label x:Name="labelPromoFee" Content="" HorizontalAlignment="Left" Height="35" Margin="633,321,0,0" VerticalAlignment="Top" Width="105"/>
         <Rectangle HorizontalAlignment="Left" Height="124" Margin="37,260,0,0" Stroke="Black" VerticalAlignment="Top" Width="152"/>
         <Label x:Name="label9" Content="Total" HorizontalAlignment="Left" Height="39" Margin="80,260,0,0" VerticalAlignment="Top" Width="66" FontFamily="Arial Black" FontSize="18"/>
-        <Label x:Name="label10" Content="Rp 0" HorizontalAlignment="Left" Height="34" Margin="45,317,0,0" VerticalAlignment="Top" Width="118" FontFamily="Arial Black" FontSize="18"/>
+        <Label x:Name="labelGrantTotal" Content="Rp 0" HorizontalAlignment="Left" Height="34" Margin="45,317,0,0" VerticalAlignment="Top" Width="118" FontFamily="Arial Black" FontSize="18"/>
+        <Label x:Name="labelSubtotal" Content="" HorizontalAlignment="Left" Height="26" Margin="282,358,0,0" VerticalAlignment="Top" Width="102"/>
 
     </Grid>
 </Window>

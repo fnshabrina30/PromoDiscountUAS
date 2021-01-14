@@ -13,9 +13,9 @@ using System.Windows.Shapes;
 namespace PromoDiscount
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for Penawaran.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Penawaran : Window
     {
         PenawaranController controller;
         OnPenawaranChangedListener listener;
